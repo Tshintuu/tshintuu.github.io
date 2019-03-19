@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Find the Precious</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar-expand navbar-light bg-dark d-flex menu">
+            <a class="navbar -brand col-10 col-md-3 text-white-50 homeLink" href="#">FindThePrecious.com</a>
+            <div class="dropdown d-sm-none">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right bg-dark" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item text-light" href="#">Fellows</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item text-light" href="#">The Ring</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item text-light" href="#">Get my reward</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item text-light" href="#">Best hunters</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item text-light" href="#">Join the army</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item text-light" href="#">Contact us</a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse col-9">
+                <ul class="nav-navbar m-auto w-100 d-none d-md-flex justify-content-around">
+                    <li class="nav-item active bg-light">
+                        <a class="nav-link text-black-50 menuNav" href="#">Fellows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50 menuNav" href="#">The Ring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50 menuNav" href="#">Get my reward</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50 menuNav" href="#">Best hunters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50 menuNav" href="#">Join the army</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50 menuNav" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="sauronCarousel" class="carousel slide m-auto" data-ride="carousel">
+            <div class="carousel inner carouselElement">
+                <div class="carousel-item active position-relative">
+                    <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100 carouselPicture" alt="See how dangerous they look?">
+                    <div class="carousel-caption">
+                        <h3>Dangerous fellowship try to destroy the ring</h3>
+                        <p>Orcs, Goblins, Balrogs, protect your master Sauron!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/792/wood-landscape-mountains-nature.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100 carouselPicture" alt="Coming soon...">
+                    <div class="carousel-caption">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor gnagngna</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/640781/pexels-photo-640781.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100 carouselPicture" alt="Coming soon...">
+                    <div class="carousel-caption">
+                        <h3>More Lorem ipsum</h3>
+                        <p>Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#sauronCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#sauronCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <section>
+        <div class="d-flex flex-column flex-sm-row align-items-center justify-content-sm-start ml-sm-4 mb-2 align-items-sm-end">
+            <h2 class="m-2">Fellows wanted dead</h2>
+            <p class="mb-2">(or alive if you want to eat them)</p>
+        </div>
+        <ul class="nav nav-pills d-flex justify-content-center mb-3">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Most wanted</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Most dangerous</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Already captured</a>
+            </li>
+        </ul>
+        <div class="d-flex position-relative card_container">
+            <div class="card col-4 m-auto col-sm-2 wanted_card">
+                <img class="card-img-top posterpic" src="http://images.innoveduc.fr/integration_gandalf.png" alt="That always returning wizard..." />
+                <div class="card-img-overlay wanted_content">
+                    <p class="wanted_reward">reward <span class="wanted_amount">1000</span><br>golden coins</p>
+                    <p class="wanted_name">Gandalf</p>
+                </div>
+                <div class="card-text wanted_title">
+                    <h4 class="card-title">The wizard</h4>
+                    <p>Descrip</p>
+                </div>
+            </div>
+            <div class="card col-4 m-auto col-sm-2 wanted_card">
+                <img class="card-img-top posterpic" src="http://images.innoveduc.fr/integration_gandalf.png" alt="That always returning wizard..." />
+                <div class="card-img-overlay wcontent_dead">
+                    <p class="wanted_dead">DEAD</p>
+                    <p class="wanted_name">Peregrin</p>
+                </div>
+                <div class="card-text wanted_title">
+                    <h4 class="card-title">Hobbit #3</h4>
+                    <p>Descrip</p>
+                </div>
+            </div>
+            <div class="card col-4 m-auto col-sm-2 wanted_card">
+                <img class="card-img-top posterpic" src="http://images.innoveduc.fr/integration_gandalf.png" alt="That always returning wizard..." />
+                <div class="card-img-overlay wanted_content">
+                    <p class="wanted_reward">reward <span class="wanted_amount">1000</span><br>golden coins</p>
+                    <p class="wanted_name">Gimli</p>
+                </div>
+                <div class="card-text wanted_title">
+                    <h4 class="card-title">Yummy dwarf</h4>
+                    <p>Descrip</p>
+                </div>
+            </div>
+        </div>
+        <div class="ml-3 mr-3 border-top pt-4 mt-4">
+            <h3>I have captured one of them, how to get my reward?</h3>
+            <div class="d-flex">
+                <div>
+                    <p>She put his pistol down, picked up her fletcher, dialed the barrel over to single shot, and very
+                        carefully put a toxin dart through the center of a junked console. He’d waited in the dark,
+                        curled
+                        in his jacket pocket. Images formed and reformed: a flickering montage of the Sprawl’s towers
+                        and
+                        ragged Fuller domes, dim figures moving toward him in the center of his closed left eyelid.
+                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4"></div>
+                            <button class="contact_button">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+                <img class="col-6 h-50 h-sm-100 col-sm-2 text_img" src="https://via.placeholder.com/400" alt="...">
+            </div>
+        </div>
+        <div class="ml-3 mr-3 border-top pt-4 mt-4">
+            <h3>Best hunters</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="media col-6">
+                        <img src="https://via.placeholder.com/70" class="mr-3 media_img" alt="...">
+                        <div class="media-body">
+                            <h5 class="mt-0">Elves Killer</h5>
+                            2 captures - <a href="#">Profile</a>
+                            <div>
+                                <button class="p-1 like_button"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                        width="16" height="16" viewBox="0 0 192 192" style=" fill:#000000;">
+                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-size="none"
+                                            style="mix-blend-mode: normal">
+                                            <path d="M0,192v-192h192v192z" fill="none"></path>
+                                            <g fill="#ffffff">
+                                                <path d="M113.34375,8l-57.34375,57.45312v102.54688h98.48438l29.51562,-68.71875v-35.28125h-66.8125l9.37499,-42.98438zM8,72v96h32v-96z"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <span class="like_text">Like</span> 68K
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media col-6">
+                        <img src="https://via.placeholder.com/70" class="mr-3 media_img" alt="...">
+                        <div class="media-body">
+                            <h5 class="mt-0">Goblin 45</h5>
+                            1 capture - <a href="#">Profile</a>
+                            <div>
+                                <button class="p-1 like_button"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                        width="16" height="16" viewBox="0 0 192 192" style=" fill:#000000;">
+                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-size="none"
+                                            style="mix-blend-mode: normal">
+                                            <path d="M0,192v-192h192v192z" fill="none"></path>
+                                            <g fill="#ffffff">
+                                                <path d="M113.34375,8l-57.34375,57.45312v102.54688h98.48438l29.51562,-68.71875v-35.28125h-66.8125l9.37499,-42.98438zM8,72v96h32v-96z"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <span class="like_text">Like</span> 68K
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ml-3 mr-3 border-top pt-4 mt-4">
+            <h3>About the ring</h3>
+            <div class="card">
+                <div class="card-header ring_title">
+                    Ring capabilities
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">What can our master Sauron do with the ring?</h5>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Main</td>
+                                <td>One ring to rule them all</td>
+                            </tr>
+                            <tr>
+                                <td>Invisibility</td>
+                                <td>You can't see me</td>
+                            </tr>
+                            <tr>
+                                <td>Power</td>
+                                <td>Destroy the world</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-header ring_title">
+                    Why the ring is awesome?
+                </div>
+                <div class="card-body container">
+                    <div class="col-4"></div>
+                    <div class="d-flex">
+                        <div>
+                            <p>My preeeeeecioooouuuusssss! Hrk hrk, we want our preciouuuusssss!!</p>
+                            <p class="comment_author">Gollum</p>
+                        </div>
+                        <img class="ml-2 col-4 col-sm-2 round_img" src="https://via.placeholder.com/110" alt="What a lovely creature">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="ml-3 mr-3 border-top pt-4 mt-4">
+            <h3>Join Mordor army, we need you!</h3>
+            <div class="d-flex">
+                <img class="mr-3 join_img" src="https://via.placeholder.com/140" alt="Come join us">
+                <div>
+                    <p class="join_text">Its hands were holograms that altered to match the convolutions of the Villa
+                        bespeak a turning
+                        in, a denial of the bright void beyond the hull. Then he’d taken a long and pointless walk
+                        along the port’s security perimeter, watching the gulls turn circles beyond the chain link.
+                    </p>
+                    <div class="row">
+                        <button class="m-auto join_button">More info on SauronRulesThemAll.com</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ml-3 mr-3 border-top pt-4 mt-4 mb-4">
+            <h3>Contact us</h3>
+            <div class="row">
+                <div class="col-2"></div>
+                <form class="col-8">
+                    <div class="form-group">
+                        <label for="emailForm">Email address</label>
+                        <input type="email" class="form-control" id="emailForm" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else (unless for our Master that knows everything).</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="addressForm">Address</label>
+                        <input type="text" class="form-control" id="addressForm" placeholder="Enter address">
+                    </div>
+                    <div class="form-group">
+                        <select id="inputState" class="form-control">
+                            <option selected>I have seen one of them</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="areaForm">Example textarea</label>
+                        <textarea class="form-control" id="areaForm" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="bg-dark">
+            <div class="d-flex justify-content-around p-3">
+                <ul class="text-light footer_list">
+                    <li>About us</li>
+                    <li>Fellows</li>
+                    <li>Join our army</li>
+                </ul>
+                <ul class="text-light footer_list">
+                    <li>FAQ</li>
+                    <li>Reward conditions</li>
+                    <li>Legal mentions</li>
+                </ul>
+                <p class="text-white-50 footerSocial">Sauron4Ever.com<br>Follow him also on Twitter</p>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,326 @@
+html{
+    font-size: 0.8rem;
+}
+
+h2{
+    font-size: 1.5rem !important;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.homeLink{
+    font-size: 1.2rem !important;
+}
+
+.carouselElement{
+    min-height: 400px;
+}
+
+.carouselPicture{
+    max-height: 400px;
+}
+
+/*.collapse .active{
+    background-color: red;
+    font
+}*/
+
+.wanted_content{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.5s;
+    height: 80%;
+}
+
+.card:hover .wanted_content{
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.5s;
+}
+
+.wanted_card{
+    position: absolute !important;
+    width: 25% !important;
+    transition: width 0.5s;
+    min-height: 145px !important;
+}
+
+.card:hover .wanted_reward{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.card:hover .wanted_name{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 60%;
+    transition: all 0.5s;
+}
+
+
+.wanted_name{
+    display: none;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: auto;
+    color: white;
+    z-index: 1;
+    transition:  all 0.5s;
+}
+
+.wanted_reward{
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 15px;
+    padding: 1% 0% 1% 3%;
+    transition: opacity 0.5s;
+}
+
+.wanted_dead{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 2%;
+    border-radius: 15px;
+    padding: 1% 0% 1% 3%;
+    transition: all 0.5s;
+}
+
+.card:hover .wanted_dead{
+    font-size: 1.2rem;
+    color: yellow;
+    transition: all 0.5s;
+}
+
+.wcontent_dead{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+    height: 50%;
+}
+
+.card:hover .wcontent_dead{
+    background-color: rgba(173, 13, 13, 0.5);
+    width: 75%;
+    height: 60%;
+    margin: auto;
+    margin-top: 0;
+    transition: all 0.5s;
+}
+
+.wanted_amount{
+    color: rgb(230, 112, 57);
+}
+
+.wanted_title h4{
+    font-size: 1.0rem;
+    transition: font-size 0.5s;
+}
+
+.wanted_title p{
+    font-size: 0.8rem;
+}
+
+.card_container{
+    min-height: 150px;
+}
+
+.contact_button{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.media_img{
+    border-radius: 5px;
+    width: 35%;
+    height: 80%;
+}
+
+.like_button{
+    background-color: rgb(10, 26, 170);
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+table{
+    margin: auto;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+td, th{
+    width: 50%;
+    text-align: center !important;
+    font-size: 0.8rem;
+    padding: 2%;
+}
+
+th{
+    background-color: grey;
+    color: white;
+}
+
+tr:nth-child(1){
+    background-color: rgb(196, 196, 196);
+}
+
+tr:nth-child(3){
+    background-color: rgb(196, 196, 196);
+}
+
+.ring_title{
+    font-weight: 600;
+}
+
+.round_img{
+    border-radius: 50%;
+}
+
+.comment_author{
+    text-align: right;
+    color: grey;
+}
+
+.join_img{
+    border-radius: 5px;
+}
+
+ .join_text{
+     height: 20%;
+     overflow: hidden;
+ }
+
+.join_button{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@media (max-width: 575px) {
+    .wanted_card:nth-child(1){
+        left: 7%;
+        z-index: 3;
+    }
+    
+    .wanted_card:nth-child(2){
+        left: 36%;
+        z-index: 2;
+    }
+    
+    .wanted_card:nth-child(3){
+        left: 66%;
+        z-index: 1;
+    }
+
+    .wanted_card:hover{
+        width: 33.33% !important;
+        transition: width 0.5s;
+    }
+    
+    .wanted_card:hover .wanted_title h4{
+        font-size: 1.2rem;
+        transition: font-size 0.5s;
+    }
+
+    .wanted_card:hover .wanted_content{
+        height:100%;
+        transition: height 0.5s;
+    }
+
+    .wanted_content{
+        top: -10% !important;
+        height: 62%;
+    }
+
+    .join_img{
+        width: 120%;
+        height: 120%;
+    }
+}
+
+@media (min-width: 576px){
+    html{
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .wanted_card{
+        position: relative!important;
+    }
+
+    .wanted_name{
+        display: block;
+        font-size: 3rem;
+    }
+
+    .card:hover .wanted_name{
+        font-size: 1.5rem;
+    }
+
+    .wcontent_dead{
+        height: 80%;
+    }
+
+    .card:hover .wcontent_dead{
+        background-color: rgba(173, 13, 13, 0.5);
+        width: 90%;
+        height: 80%;
+        margin: auto;
+        margin-top: 0;
+        transition: all 0.5s;
+    }
+
+    .card:hover .wanted_dead{
+        font-size: 2.5rem;
+        padding-top: 20%;
+    }
+
+    .wanted_reward{
+        font-size: 1.5rem;
+    }
+
+    .wanted_title h4{
+        font-size: 1.5rem;
+    }
+
+    .wanted_title p{
+        font-size: 1rem;
+    }
+
+    .media_img{
+        width: 17%;
+        height: 90%;
+    }
+    table{
+        width: 60%;
+    }
+
+    td, th{
+        font-size: 1rem;
+        padding: 1%;
+    }
+    .join_text{
+        height: 40%;
+        overflow: hidden;
+    }
+
+    .footerSocial{
+        font-weight: 600;
+    }
+
+    .footer_list{
+        list-style: none;
+    }
+}
